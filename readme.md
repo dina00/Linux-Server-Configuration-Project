@@ -134,10 +134,10 @@ virtualenv env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
-Install the following:
+7. Install the following:
 ```
-pip3 install flask packaging oauth2client redis passlib flask-httpauth
-pip3 install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
+pip install flask packaging oauth2client redis passlib flask-httpauth
+pip install sqlalchemy flask-sqlalchemy psycopg2 bleach requests
 pip install oauthlib
 pip install Flask-Login
 pip install pyopenssl
@@ -179,5 +179,7 @@ Then add the following content:
 - [https://www.codementor.io/@abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft](https://www.codementor.io/@abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft)
 - [https://github.com/AliMahmoud7/linux-server-configuration/tree/642be30054376ea4ea5676ce455da0d684548f40](https://github.com/AliMahmoud7/linux-server-configuration/tree/642be30054376ea4ea5676ce455da0d684548f40)
 - [https://aws.amazon.com/premiumsupport/knowledge-center/connect-http-https-ec2/](https://aws.amazon.com/premiumsupport/knowledge-center/connect-http-https-ec2/)
-## An Important Note:
-- After creating the EC2 instance, don't forget to edit the port settings on the website so that port 2200 and port 80 are open to requests.
+
+## Important Notes:
+- Set a password for the user grader. Don't just press enter, otherwise you won't be able to use sudo.
+- After creating the EC2 instance, don't forget to edit the port settings on the website so that port 2200 and port 80 are open to requests, this allows you to ssh into the instance and load the website.
