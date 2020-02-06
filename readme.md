@@ -5,6 +5,7 @@ The objective is to take a Linux instance and modify it to host web applications
 ### Info About My Machine:
 - IP: [52.14.112.201](52.14.112.201)
 - DNS: [ec2-52-14-112-201.us-east-2.compute.amazonaws.com](ec2-52-14-112-201.us-east-2.compute.amazonaws.com)
+- Port: 2200
 
 ## What You Need Beforehand
 You need a Linux instance and Git bash to connect to it, also a Linux VM to act as your local machine.
