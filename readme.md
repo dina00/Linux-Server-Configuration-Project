@@ -177,5 +177,6 @@ Then add the following content:
 - [https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
 - [https://www.codementor.io/@abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft](https://www.codementor.io/@abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft)
 - [https://github.com/AliMahmoud7/linux-server-configuration/tree/642be30054376ea4ea5676ce455da0d684548f40](https://github.com/AliMahmoud7/linux-server-configuration/tree/642be30054376ea4ea5676ce455da0d684548f40)
+- [https://aws.amazon.com/premiumsupport/knowledge-center/connect-http-https-ec2/](https://aws.amazon.com/premiumsupport/knowledge-center/connect-http-https-ec2/)
 ## An Important Note:
 - After creating the EC2 instance, don't forget to edit the port settings on the website so that port 2200 and port 80 are open to requests.
